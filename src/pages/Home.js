@@ -1,6 +1,9 @@
 import React from "react";
 
 import { Example1, Example2 } from "../components/Examples";
+import {Link} from "react-router-dom";
+
+const iconArea = process.env.PUBLIC_URL;
 
 function Home() {
   return (
@@ -29,7 +32,7 @@ function Home() {
         </div>
         <div className="flex justify-around flex-col md:flex-row-reverse pt-8 lg:pt-4">
             <Example2/>
-            <div className="w-full md:w-2/5 flex items-center justify-center loader-slide-from-left-2 pt-8 xl:pt-0">
+            <div className="w-full md:w-2/5 flex items-center justify-center loader-slide-from-left-1/2 pt-8 xl:pt-0">
                 <div>
                     <h1 className="text-2xl md:text-5xl font-bold text-white text-center py-0 md:py-4">
                         Enjoy our legendary<br/>
@@ -42,6 +45,25 @@ function Home() {
                         <span className="text-crunchy font-semibold px-1">news</span>
                         from Crunchyroll in your community with
                         Crunchy's webhooks .
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div className="flex justify-center flex-col md:flex-row pt-8 lg:pt-4">
+            <img className="loader-slide-from-left-2" style={{height: 24 + 'rem'}} src={ `${iconArea}/emojis/hime-happy.png` } alt=""/>
+            <div className="w-full md:w-2/5 flex items-center justify-center loader-slide-from-right-2 pt-8 xl:pt-0">
+                <div>
+                    <h1 className="text-2xl md:text-5xl font-bold text-white text-center py-0 md:py-4">
+                        Leaving us review?
+                    </h1>
+                    <p className="text-lg md:text-2xl text-white text-center py-4">
+                        Check out our
+                        <Link className="text-crunchy font-semibold italic px-2" to="/faq">FAQ</Link>
+                        and
+                        <a className="text-crunchy font-semibold italic px-2" href="https://discord.com/invite/KvvUcKP">Support Server</a>
+                        before leaving a review to see if we haven't already answered
+                        your questions or can fix you problems!
+                        Leaving us a great review? Thank you!
                     </p>
                 </div>
             </div>
