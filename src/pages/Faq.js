@@ -7,7 +7,7 @@ function Faq() {
     return (
         <div className="faq flex justify-center">
             <div className="w-5/6">
-                <div className="loader-slide-from-left-1 flex flex-row bg-discord-dark shadow-embed rounded-lg w-full xl:w-3/5 xl:h-32 p-4 my-4 float-left">
+                <div className="loader-slide-from-left-1 flex flex-row bg-discord-dark shadow-embed rounded-lg w-full xl:w-4/5 xl:h-32 p-4 my-4 float-left">
                     <img className="hidden xl:block self-center w-24 h-24" src={`${iconArea}/emojis/hime-confuse.png`} alt=""/>
                     <div>
                         <h1 className="italic text-white text-xl font-bold cursor-default">
@@ -34,7 +34,7 @@ function Faq() {
                     </div>
                 </div>
 
-                <div className="loader-slide-from-right-1 flex bg-discord-dark shadow-embed rounded-lg w-full xl:w-3/5 xl:h-32 p-4 my-4 float-right">
+                <div className="loader-slide-from-right-1 flex bg-discord-dark shadow-embed rounded-lg w-full xl:w-4/5 xl:h-32 p-4 my-4 float-right">
                     <img className="hidden xl:block self-center w-24 h-24" src={`${iconArea}/emojis/hime-schoolgirl.png`} alt=""/>
                     <div>
                         <h1 className="italic text-white text-xl font-bold cursor-default">
@@ -49,7 +49,7 @@ function Faq() {
                     </div>
                 </div>
 
-                <div className="loader-slide-from-left-1/2 flex bg-discord-dark shadow-embed rounded-lg w-full xl:w-3/5 xl:h-32 p-4 my-4 float-left">
+                <div className="loader-slide-from-left-1/2 flex bg-discord-dark shadow-embed rounded-lg w-full xl:w-4/5 xl:h-32 p-4 my-4 float-left">
                     <img className="hidden xl:block self-center w-24 h-24" src={`${iconArea}/emojis/hime-waaa.png`} alt=""/>
                     <div>
                         <h1 className="italic text-white text-xl font-bold cursor-default">
@@ -68,7 +68,7 @@ function Faq() {
                     </div>
                 </div>
 
-                <div className="loader-slide-from-right-1/2 flex bg-discord-dark shadow-embed rounded-lg w-full xl:w-3/5 xl:h-32 p-4 my-4 float-right">
+                <div className="loader-slide-from-right-1/2 flex bg-discord-dark shadow-embed rounded-lg w-full xl:w-4/5 xl:h-32 p-4 my-4 float-right">
                     <img className="hidden xl:block self-center w-24 h-24" src={`${iconArea}/emojis/hime-no.png`} alt=""/>
                     <div>
                         <h1 className="italic text-white text-xl font-bold cursor-default">
@@ -86,7 +86,7 @@ function Faq() {
                     </div>
                 </div>
 
-                <div className="loader-slide-from-left-2 flex bg-discord-dark shadow-embed rounded-lg w-full xl:w-3/5 xl:h-32 p-4 my-4 float-left">
+                <div className="loader-slide-from-left-2 flex bg-discord-dark shadow-embed rounded-lg w-full xl:w-4/5 xl:h-32 p-4 my-4 float-left">
                     <img className="hidden xl:block self-center w-24 h-24" src={`${iconArea}/emojis/hime-mad.webp`} alt=""/>
                     <div>
                         <h1 className="italic text-white text-xl font-bold cursor-default">
